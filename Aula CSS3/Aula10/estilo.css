@@ -1,0 +1,15 @@
+#d1,
+#d2 {
+  width:130px;
+  height: 130px;
+  padding: 100px;
+  border: #000 solid 20px;
+  margin-top: 10px;
+}
+#d1 {
+  border-radius: 40px;
+}
+
+#d2 {
+  border-radius: 100%;
+}

@@ -1,0 +1,16 @@
+body {
+  background-color: #bbb;
+  background-image: url(img/img3.png), url(img/img1.png);
+  background-size: 200px, 100px;
+  background-repeat: no-repeat, repeat;
+  background-position: 200px 200px, 0px 0px;
+}
+p {
+  font-size: 30pt;
+  color: #fff;
+  background-color: #0f0;
+  background-image: url(img/img2.png);
+  background-size: 30px;
+  background-repeat: repeat-x;
+  background-position: 0px 8px;
+}

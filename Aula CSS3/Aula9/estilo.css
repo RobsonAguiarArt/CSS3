@@ -1,0 +1,24 @@
+p {
+  text-align: center;
+  width: 300px;
+  /*forma resumida*/
+  border-top: #000 solid 10px;
+  border-right: #00f double 20px;
+  border-bottom: #f00 dotted 20px;
+  border-left: #0f0 groove 20px;
+  /*forma extensa*/
+  border-top-width: 20px;
+  border-right-width: 20px;
+  border-bottom-width: 20px;
+  border-left-width: 20px;
+
+  border-top-style: solid;
+  border-right-style: double;
+  border-bottom-style: dotted;
+  border-left-style: groove;
+
+  border-top-color: #000;
+  border-right-color: #00f;
+  border-bottom-color: #f00;
+  border-left-color: #0f0;
+}
