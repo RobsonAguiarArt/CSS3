@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+}
+p {
+  border: 1px solid #f00;
+  margin: 0px;
+  text-align: center;
+  margin: auto;
+}
+div {
+  border: 1px solid #000;
+  margin: auto; /*só funciona se o width for definido*/
+}
+#dv1 {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 50px;
+}
+#dv1 p {
+  width: 200px;
+}
+#dv2 {
+  width: 200px;
+  height: 200px;
+}
