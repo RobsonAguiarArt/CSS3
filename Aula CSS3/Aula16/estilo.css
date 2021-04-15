@@ -1,0 +1,26 @@
+/*colocando sombra em textos*/
+body {
+  text-align: center;
+}
+h1 {
+  font-size: 50pt;
+  color: #f00;
+  text-shadow: 5px 5px 5px #000, 10px 10px 5px #444, 15px 15px 5px #666,
+    20px 20px 5px #777, 25px 25px 5px #999; /*horizontal  - vertical - blur - cor*/
+}
+/*colocando sombra em elementos*/
+p {
+  margin-top: 110px;
+  font-size: 25pt;
+  color: #f00;
+  text-shadow: 5px 5px 5px #000, 10px 10px 5px #444, 15px 15px 5px #666,
+    20px 20px 5px #777, 25px 25px 5px #999; /*horizontal  - vertical - blur - cor*/
+}
+div {
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  box-shadow: 10px 10px 15px #888; /*horizontal  - vertical - blur - cor*/
+}
