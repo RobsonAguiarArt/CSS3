@@ -1,0 +1,15 @@
+#dv1 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  /*transform: translate(0px, 0px); move o objeto para o  eixo x ou y*/
+  /*transform: rotate(45deg); rotaciona o objeto de acordo com o grau inserido */
+  /*  transform: scale(2); pode diminuir ou aumentar a proporção do objeto levando em consideração as medidas iniciais*/
+  /*transform:skewX(-20deg); inclina o objeto para a horizontal*/
+  /*transform: skewY(20deg); inclina o objeto para a vertical*/
+  /*transform: skew(-45deg,5deg);*/
+  /*transform:matrix(scaleX,skewY,skewX,scaleY,translateX,translateY);*/
+  /*transform: matrix(0.5,0,0,0.5,0,0); une todas as transformações 2D*/
+  transform-origin: 100% 0%;
+  transform: rotate(0deg);
+}
