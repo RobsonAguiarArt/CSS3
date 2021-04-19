@@ -1,0 +1,28 @@
+table, td, th{
+  border: 1px solid #000;
+}
+table {
+  width:500px;
+  table-layout: fixed;
+  border-collapse: collapse;/*controla se as celulas vao ficar juntas ou separadas*/
+  /*border-spacing: 0px 0px;  controla o espaço entre as celulas*/
+  /*empty-cells:hide;  configura para mostrar ou esconder a celula vazia*/
+}
+td,th{
+  height:50px;
+  vertical-align: middle;
+  text-align: center;
+}
+th{
+  background-color: #8a8;
+  color: #fff;
+  font-size: 25px;
+}
+.zebra{
+}
+tr:nth-child(even){
+  background-color: #ddd;
+}
+p:nth-child(even){
+  background-color: #fdd;
+}
