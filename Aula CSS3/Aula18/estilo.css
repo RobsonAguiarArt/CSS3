@@ -1,0 +1,11 @@
+@font-face {
+  font-family: fontCFB;
+  src: url(../Aula18/MAGNETOB.TTF);
+}
+p {
+font-family: 'Special Elite', cursive;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 30px;
+  font-variant: normal;
+}
