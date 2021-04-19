@@ -1,0 +1,26 @@
+div,span{
+  border: 1px solid #000;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+#d1{
+display:inline-block;
+}
+#s1{
+display:inline-block;
+
+}
+#d2{
+display:inline-block;
+
+}
+#s2{
+display:inline-block;
+}
+/*display:none; desabilita o elemento*/
+/*display:inline;
+permite que adicione mais elementos na mesma linha mais nao seque o tamanho */
+/*display:block;
+o elemento quebra a linha e nao aceita elementos na mesma linha */
+/*permite elementos na mesma linha e permite a definição da caixa do elemento*/
